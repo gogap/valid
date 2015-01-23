@@ -28,5 +28,17 @@ func Test(t *testing.T) {
 	return
 }
 
+输出结果
+
+字段名+错误信息
+
+ZeroValue:字段为空
+MinValue:小于最小值
+MaxValue:大于最大值
+nvalidLength:字段长度错误
+RegularExpressionMismatch:字段格式错误
+BadParameter:tag参数错误
+nknownTag:tag无法识别
+
 
 ```
